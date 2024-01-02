@@ -1,0 +1,30 @@
+{
+  "name": "server-stats-api",
+  "version": "1.0.0",
+  "bin": "index.js",
+  "description": "api to get system info ",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SX-9/server-stats-api.git"
+  },
+  "keywords": [
+    "server",
+    "stats",
+    "api"
+  ],
+  "author": "sx9dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SX-9/server-stats-api/issues"
+  },
+  "homepage": "https://github.com/SX-9/server-stats-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "systeminformation": "^5.21.22"
+  }
+}
